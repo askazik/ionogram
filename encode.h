@@ -1,8 +1,6 @@
 // -*-coding: cp1251;-*-
 // Заголовочный файл для работы кодированием данных зондирования.
 
-#include "config.h"
-
 #ifndef __ENCODE_H__
 #define __ENCODE_H__
 
@@ -147,6 +145,5 @@ struct SignalResponse {
 
 int comp(const void *i, const void *j);
 unsigned char getThereshold(unsigned char *arr, unsigned n);
-void saveLine(unsigned char *data, unsigned _Count, unsigned _HeightStep, moduleIonogram curModule, unsigned short curFrq, HANDLE hFile);
 
 #endif // __ENCODE_H__
